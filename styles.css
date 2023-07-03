@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+nav ul {
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+section {
+    padding: 20px;
+}
+
+
+/* Home Page */
+
+.homeh2 {
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Josefin Sans', sans-serif;
+  animation: ease-in;
+}
+
+.homesec {
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+/* Contact */
+
+.contacth2 {
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Josefin Sans', sans-serif;
+  animation: ease-in;
+}
+
+.homebody {
+  background-color: #008CBA;
+}
+
+/* About */
+
+.abouth2 {
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Josefin Sans', sans-serif;
+  animation: ease-in;
+}
+
+/* Music */
+.musich2 {
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Josefin Sans', sans-serif;
+  animation: ease-in;
+}
+
+
+/* W3 Schools: https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_fade--> */
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+
+/* Contact frorm From W3 Schools */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+span {
+  color: white;
+}
+
+
